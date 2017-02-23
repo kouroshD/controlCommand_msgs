@@ -1,0 +1,8 @@
+int8[7] Activation
+armControl oneArm
+bimanual bimanualArm
+closeGrip closeGripArm
+openGrip openGripArm
+stop stopArm
+holdMode holdModeArm
+
