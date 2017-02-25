@@ -13,7 +13,8 @@ add_message_files(
   openGrip.msg
   stop.msg
   holdMode.msg
-  control.msg)
+  control.msg
+  controlTaskParam.msg)
 
 generate_messages(DEPENDENCIES geometry_msgs std_msgs )
 

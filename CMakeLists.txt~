@@ -9,7 +9,8 @@ add_message_files(
   transformation.msg
   bimanual.msg
   armControl.msg
-  grip.msg
+  closeGrip.msg
+  openGrip.msg
   stop.msg
   holdMode.msg
   control.msg)

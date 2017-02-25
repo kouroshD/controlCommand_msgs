@@ -1,7 +1,7 @@
 int8 arm1
 int8 arm2
-transformation tTo11
-transformation tTo12
+transformation tTo1
+transformation tTo2
 transformation  wTg
 
 	
