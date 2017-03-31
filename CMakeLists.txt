@@ -9,12 +9,12 @@ add_message_files(
   transformation.msg
   bimanual.msg
   armControl.msg
-  closeGrip.msg
-  openGrip.msg
+  Gripper.msg
   stop.msg
   holdMode.msg
   control.msg
-  controlTaskParam.msg)
+  controlTaskParam.msg
+  controlGoalReachAck.msg)
 
 generate_messages(DEPENDENCIES geometry_msgs std_msgs )
 
