@@ -9,13 +9,15 @@ add_message_files(
   transformation.msg
   bimanual.msg
   armControl.msg
-  closeGrip.msg
-  openGrip.msg
+  Gripper.msg
   stop.msg
   holdMode.msg
   control.msg
   controlTaskParam.msg
-  controlGoalReachAck.msg)
+  controlGoalReachAck.msg
+	sim_singleArm.msg
+	sim_bimanArm.msg
+	sim_robot.msg)
 
 generate_messages(DEPENDENCIES geometry_msgs std_msgs )
 

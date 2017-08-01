@@ -14,7 +14,8 @@ add_message_files(
   holdMode.msg
   control.msg
   controlTaskParam.msg
-  controlGoalReachAck.msg)
+  controlGoalReachAck.msg
+)
 
 generate_messages(DEPENDENCIES geometry_msgs std_msgs )
 
