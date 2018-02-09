@@ -15,6 +15,7 @@ add_message_files(
   control.msg
   controlTaskParam.msg
   controlGoalReachAck.msg
+	singleArmTransportation.msg
 )
 
 generate_messages(DEPENDENCIES geometry_msgs std_msgs )

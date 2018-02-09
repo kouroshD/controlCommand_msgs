@@ -15,9 +15,7 @@ add_message_files(
   control.msg
   controlTaskParam.msg
   controlGoalReachAck.msg
-	sim_singleArm.msg
-	sim_bimanArm.msg
-	sim_robot.msg)
+)
 
 generate_messages(DEPENDENCIES geometry_msgs std_msgs )
 
